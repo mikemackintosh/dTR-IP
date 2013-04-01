@@ -1,4 +1,5 @@
-MySQL-INET6-UDF
+dTR-IP
 ===============
 
-An improvement of the INET6-UDF's for MySQL 5.5 and lower
+An IPv4/v6 Helper Suite for PHP
+
