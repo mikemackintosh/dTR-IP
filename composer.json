@@ -1,0 +1,27 @@
+{
+  "name": "dtr/ip",
+  "description": "An IPv4/v6 Helper Suite for PHP",
+  "keywords": ["ipv6", "ipv4", "networking", "subnetting", "networks", "dtr", "bakery"],
+  "homepage": "http://wp.me/p1Z36o-ka",
+  "license": "MIT",
+  "authors": [
+        {
+            "name": "Mike Mackintosh",
+            "email": "mike@bakeryphp.com"
+        }
+  ],
+  "autoload": {
+        "psr-0": {
+            "dTR": "src/"
+        }
+  },
+  "require": {
+      "php": ">=5.1",
+  },
+  "minimum-stability": "dev",
+ 	"extra": {
+        "branch-alias": {
+            "dev-master": "2.13.41-dev"
+        }
+  }
+}
