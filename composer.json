@@ -13,7 +13,8 @@
   "autoload": {
         "psr-0": {
             "dTR": "src/"
-        }
+        },
+        "files": ["src/dTR/Networking/dTRIP.php"]
   },
   "require": {
       "php": ">=5.1"
