@@ -11,9 +11,6 @@
         }
   ],
   "autoload": {
-        "psr-0": {
-            "dTR": "src/"
-        },
         "files": ["src/dTR/Networking/dTRIP.php"]
   },
   "require": {
