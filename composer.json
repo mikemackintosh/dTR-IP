@@ -1,31 +1,14 @@
 {
-  "name": "dtr/ip",
-  "description": "An IPv4/v6 Helper Suite for PHP",
-  "keywords": ["ipv6", "ipv4", "networking", "subnetting", "networks", "dtr", "bakery"],
-  "homepage": "http://wp.me/p1Z36o-ka",
-  "license": "MIT",
-  "authors": [
-        {
-            "name": "Mike Mackintosh",
-            "email": "mike@bakeryphp.com"
+    "name": "luzrain/ipcalc",
+    "description": "IPv4/IPv6 network calculator for PHP",
+    "keywords": ["ipv6", "ipv4", "network", "subnet", "cidr", "IP", "dtr"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IPCalc\\": "src/"
         }
-  ],
-  "autoload": {
-       "psr-0": {
-             "dTR": "src/"
-        },
-        "files": ["src/dTR/Networking/dTRIP.php"]
-  },
-  "require": {
-      "php": ">=5.1"
-  },
-  "minimum-stability": "dev",
- 	"extra": {
-        "branch-alias": {
-            "dev-master": "2.2.5-dev"
-        }
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^5.6"
-  }
+    }
+    "require": {
+        "php": ">=5.4"
+    }
 }
