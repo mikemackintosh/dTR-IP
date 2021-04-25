@@ -3,7 +3,7 @@ dTR-IP
 
 An IPv4/v6 Helper Suite for PHP
 
-# Usage:
+## Usage:
 
 This class takes both IPv6 (expanded and condensed) and IPv4 addresses into consideration.
 
@@ -34,21 +34,21 @@ The above would return:
       "broadcast":"fe80:dead:15:a:7fff:ffff:ffff:ffff"
     }
 
-# Examples:
+## Examples:
 
 Here are some examples:
 
-###ipv4
+### ipv4
 
     $net = new dTRIP("10.22.99.199", 28);
     echo $net->getNetwork(); // 10.22.99.192
 
-###ipv6
+### ipv6
 
     $net = new dTRIP("fe80:dead:15:a:bad:1dea:11:2234", 93);
     $net->getNetwork(); // fe80:dead:15:a:bad:1de8::
     $net->getBroadcast(); // fe80:dead:15:a:bad:1def:ffff:ffff
     
-#Notes:
+### Notes:
 
 Although IPv6 does not use the concept of networks and broadcasts, the ranges are still needed to do inclusive searches. Also, IPv6 has a subnet segment, but can still be supernetted/subnetted, which this takes into consideration.
