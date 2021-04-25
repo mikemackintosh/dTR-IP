@@ -3,7 +3,7 @@ dTR-IP
 
 An IPv4/v6 Helper Suite for PHP
 
-#Usage:
+# Usage:
 
 This class takes both IPv6 (expanded and condensed) and IPv4 addresses into consideration.
 
